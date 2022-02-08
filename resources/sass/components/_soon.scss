@@ -1,0 +1,32 @@
+.soon{
+    color: gainsboro;
+    margin-bottom: 50px;
+    .cat{
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        p{
+            width:3px;
+            height: 23px;
+            margin-right: 10px;
+            background-color: rgb(233, 32, 32);
+        }
+    }
+    .soon_shows{
+        display: flex;
+        .show{
+            width: calc(20% - 20px);
+            margin-right: 20px;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+            }
+            .info{
+                display: flex;
+                justify-content: space-between;
+                
+            }
+        }
+    }
+}

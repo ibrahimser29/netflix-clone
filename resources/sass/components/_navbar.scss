@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_background{
+    border-bottom: 0.3px solid rgba(211, 211, 211, 0.2);
+    height: 60px;
+}
+.navbar_logo{
+    color: rgb(233, 32, 32);
+    font-weight: 600;
+}
+.navbar_links{
+    display: flex;
+    width: 60%;
+}
+.navbar_links a{
+    margin-right: 60px;
+}
+.navbar_links .active{
+    border-bottom: 1px solid rgb(233, 32, 32);
+    padding-bottom: 5px;
+}

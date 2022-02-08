@@ -1,0 +1,20 @@
+@use './components/_header.scss';
+@use './components/_navbar.scss';
+@use './components/_trends.scss';
+@use './components/_soon.scss';
+@use './components/_cat.scss';
+@use './components/_footer.scss';
+.container{
+    width: 1250px;
+    margin: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
