@@ -5,6 +5,9 @@
     color: gainsboro;
     padding-top: 30px;
     overflow: hidden;
+    .container{
+        display: flex;
+    }
 }
 .movie_series{
     width: calc(16% - 10px);

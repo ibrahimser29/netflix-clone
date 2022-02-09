@@ -3,7 +3,7 @@
         <div class="container">
         <div class="cat"><div><p></p> {{category}}</div><router-link to="">See More</router-link></div>
         <div class="soon_shows">
-            <div v-for="m in movies.slice(0,12)" :key="m.id" class="show">
+            <div v-for="m in movies" :key="m.id" class="show">
                 <img :src='m.image' />
                 <div class="info"><p>{{m.year}}</p><p>{{m.contentRating}}</p></div>
             </div>
@@ -33,7 +33,7 @@ export default {
         }
         var self = this;
 axios.request(options).then(function (response) {
-	self.movies = response.data.items;
+	self.movies = response.data.items.slice(0,12);
 }).catch(function (error) {
 	console.error(error);
 });
