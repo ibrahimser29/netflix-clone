@@ -1,7 +1,8 @@
 <template>
 <div>
     <Header />
-    <Soon />
+    <Soon category="Comming Soon" q="ComingSoon" />
+    <Soon category="Most Popular Movies" q="MostPopularMovies" />
     <Cats />
     <Footer />
 </div>
